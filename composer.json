@@ -1,0 +1,22 @@
+{
+    "name": "suporte/magazord",
+    "autoload": {
+        "psr-4": {
+            "Suporte\\Magazord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PedroRezende14",
+            "email": "pedro.rezende14@outlook.com"
+        }
+    ],
+    "require": {
+        "laravel/laravel": "^5.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
